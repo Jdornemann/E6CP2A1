@@ -2,11 +2,11 @@
 # hint: Debes utilizar 'rubocop'
 # y no obtener errores ni warnings.
 
-def par(x)
-  if x % 2 == 0
-    return true
+def par(xyz)
+  if xyz.even?
+    true
   else
-    return false
+    false
   end
 end
 
