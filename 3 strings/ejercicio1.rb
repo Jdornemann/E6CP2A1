@@ -5,3 +5,17 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+
+
+def busca(string,char)
+
+    puts "Existe en posición:" +  string.count(char).to_s
+
+    puts "existe" if string.include? char
+        
+
+end
+
+busca(cadena,caracter)
+
